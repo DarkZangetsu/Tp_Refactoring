@@ -9,7 +9,7 @@ package iut.bad;
  * @author Fitahiana
  */
 public class Humain {
-    protected String nom;
+   protected String nom;
     protected String prenom;
     protected int age;
 
@@ -17,5 +17,9 @@ public class Humain {
         this.nom = nom;
         this.prenom = prenom;
         this.age = age;
+    }
+
+    public void details() {
+        System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age);
     }
 }
