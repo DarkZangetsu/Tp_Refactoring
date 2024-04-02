@@ -20,6 +20,10 @@ public class Humain {
     }
 
     public void details() {
-        System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age);
+        System.out.println(toString());
+    }
+
+    public String toString() {
+        return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
     }
 }
