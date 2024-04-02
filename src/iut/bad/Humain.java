@@ -34,4 +34,8 @@ public class Humain {
     public void boire() {
         System.out.println("Je bois.");
     }
+    
+    public void ami(Humain autre) {
+        System.out.println(nom + " " + prenom + " est ami avec " + autre.nom + " " + autre.prenom);
+    }
 }
