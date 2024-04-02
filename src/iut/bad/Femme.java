@@ -12,10 +12,10 @@ public class Femme extends Humain {
     public Femme(String nom, String prenom, int age) {
         super(nom, prenom, age);
     }
-    
+
     public static void main(String[] args) {
         Homme homme = new Homme("Doe", "John", 30);
         Femme femme = new Femme("Doe", "Jane", 28);
-        homme.ami(femme);
+        homme.ami(femme, 100); // Durée de l'amitié de 100 jours (valeur par défaut)
     }
 }
